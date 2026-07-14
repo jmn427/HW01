@@ -1,0 +1,100 @@
+   55  mkdir HW01
+   56  ls
+   57  cd HW01/
+   58  pwd
+   59  touch history.txt
+   60  ls
+   61  cd 1655/homework/
+   62  cd
+   63  cd 1655/homework/
+   64  pwd
+   65  git@github.com:jmn427/HW01.git
+   66  git clone git@github.com:jmn427/HW01.git
+   67  rmdir HW01
+   68  cd HW01/
+   69  rm history.txt
+   70  ls
+   71  cd
+   72  1655/homework/
+   73  cd 1655/homework/ 
+   74  git clone git@github.com:jmn427/HW01.git
+   75  cd HW01
+   76  ls
+   77  ls -a
+   78  mkdir unixstuff
+   79  ls
+   80  cd unixstuff
+   81  ls
+   82  mkdir backups
+   83  ls -a
+   84  cd ..
+   85  pwd -P
+   86  cd
+   87  ls unixstuff
+   88  ls backups
+   89  ls ~/unixstuff
+   90  man wc
+   91  cd
+   92  cd ~/1655/homework/HW01/unixstuff/
+   93  cp ~/science.txt .
+   94  ls
+   95  cp ~/science.txt ./newname
+   96  ls
+   97  cp ~/science.txt science.bak
+   98  mv science.bak backups/.
+   99  ls
+  100  ls backups
+  101  cp science.txt tempfile.txt
+  102  ls
+  103  rm tempfile.txt
+  104  ls
+  105  rm tempfile.txt
+  106  ls
+  107  mkdir tempstuff
+  108  rm -rf tempstuff
+  109  ls
+  110  cat science.txt
+  111  clear
+  112  more science.txt
+  113  head science.txt
+  114  head -5 science.txt
+  115  clear
+  116  tail science.txt
+  117  grep science science.txt
+  118  grep Science science.txt
+  119  % grep Science science.txt
+  120  grep Science science.txt
+  121  wc -w science.txt
+  122  cat
+  123  cat > list1
+  124  cat list1
+  125  cat >> list1
+  126  cat list1
+  127  cat list1 list2 > biglist
+  128  sort < list1
+  129  who
+  130  ps -u vds8tu
+  131  sleep 10
+  132  jobs
+  133  sleep 100 &
+  134  jobs
+  135  kill %240173
+  136  jobs
+  137  which myexec
+  138  find . -name "*.sh"
+  139  du -s -h *
+  140  echo $SHELL
+  141  printenv | more
+  142  echo $SHELL
+  143  $USER
+  144  echo $USER
+  145  source envs.sh
+  146  echo $ncpus
+  147  history 100
+  148  touch history.txt
+  149  ls
+  150  rm history.txt
+  151  ..
+  152  cd ..
+  153  touch history.txt
+  154  history 100 > history.txt
